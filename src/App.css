@@ -79,5 +79,11 @@ a{
 }
 
 .logotopQ{
-  width: 200px;
+  width: 150px;
+}
+
+
+/* Стили кнопки выпадающего меню*/
+#sidebar{
+  margin-left: 120px;
 }
