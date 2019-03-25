@@ -1,0 +1,83 @@
+
+
+
+.app-wrapper {
+margin: 0 auto;
+display: grid;
+
+grid-template-areas:
+"header header"
+"lmenu main"
+"footer footer";
+
+
+
+grid-template-rows: 60px 1fr;
+grid-template-columns: 2.5fr 10fr;
+grid-gap: 10px;
+}
+.headerQ{
+  grid-area: header;
+  background-color: orange;
+}
+.leftmenu{
+grid-area: lmenu;
+background-color: orange;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+.firstmenu{
+  margin-top: 20px;
+}
+.Profile{
+grid-area: main;
+background-color: black;
+border-top-left-radius:10px;
+border-bottom-left-radius: 10px;
+}
+.mainphoto1{
+  border-top-left-radius: 10px;
+}
+.footer{
+grid-area: footer;
+background-color: orange;
+text-align: center;
+height: 100px;
+}
+
+#InputAddPosts {
+  text-align: left;
+  margin-left: 5px;
+}
+#lastname {
+  width:220px;
+  height:20px;
+  border-radius: 10px;
+}
+.buttonaddpost{
+  width: 70px;
+  height: 30px;
+}
+a{
+  text-decoration: none;
+}
+.headerQ {
+  margin: 0 auto;
+  display: grid;
+
+  grid-template-areas:
+  "headerQ topmenuQ";
+
+  grid-template-rows: 10px 1fr;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 10px;
+}
+.topmenuQ{
+  text-align: right;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.logotopQ{
+  width: 200px;
+}

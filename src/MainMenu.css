@@ -1,0 +1,78 @@
+.Profile {
+margin: 0 auto;
+display: grid;
+
+grid-template-areas:
+"mainphoto mainphoto"
+"Photo Info"
+"AddPosts AddPosts"
+"NewPosts NewPosts"
+"NewPosts2 NewPosts2"
+"NewPosts3 NewPosts3"
+"NewPosts4 NewPosts4";
+
+
+
+grid-template-rows: 133px 1fr;
+grid-template-columns: 5fr 10fr;
+grid-gap: 10px;
+}
+
+.mainphoto{
+  grid-area: mainphoto;
+}
+.mainphoto2{
+  width: 110px;
+  height:155px;
+  border-radius: 10px;
+}
+
+.info{
+  text-align: left;
+}
+
+.Photo{
+  grid-area: Photo;
+}
+.Info {
+  grid-area: Info;
+  color: white;
+
+}
+#addpost{
+  margin-left: 10px;
+}
+.AddPosts{
+  text-align: left;
+  grid-area: AddPosts;
+  background-color: orange;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  height: 50px;
+}
+.NewPosts{
+  text-align: center;
+  grid-area: NewPosts;
+  background-color: green;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.NewPosts2{
+  text-align: center;
+  grid-area: NewPosts2;
+  background-color: green;
+  border-radius: 10px;
+}
+.NewPosts3{
+  text-align: center;
+  grid-area: NewPosts3;
+  background-color: green;
+  border-radius: 10px;
+}
+.NewPosts4{
+  text-align: center;
+  grid-area: NewPosts4;
+  background-color: green;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
