@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import main from './images/main.jpeg';
 import profile from './images/profile.jpg';
-import '../MainMenu.css';
+import './Profile.css';
 
 
 const Profile = () => {

@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
+import './components/Footer.css';
+import './components/Header.css';
+import './components/LeftMenu.css';
 import Header from './components/Header';
 import LeftMenu from './components/LeftMenu';
 import Profile from './components/Profile';

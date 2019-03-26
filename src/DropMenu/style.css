@@ -2,18 +2,19 @@
      position: relative;
      display: inline-block;
      margin-top: 10px;
-     margin-left: 175px;
+     margin-left: 185px;
 }
  ul {
      list-style-type: none;
-     margin: 0;
+     margin:0;
      padding: 0;
      top:45px;
-     right:0px;
+     right: -7px;
      width: 110px;
      background-color: white;
      font-weight:bold;
      position: absolute;
+     border-radius: 5px;
 
 
 }
@@ -23,7 +24,7 @@
 }
  li {
      padding: 5px 5px;
-     border-bottom: 1px solid #e5e5e5;
+     border-bottom: 1px solid black;
      text-align: center;
 }
  li:last-child {
@@ -34,7 +35,7 @@
      color: white;
 }
  .button{
-     width:80px;
+     width:65px;
      height:20px;
      background-color: #08A4FF ;
      padding:10px;
