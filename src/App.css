@@ -18,11 +18,11 @@ grid-gap: 10px;
 }
 .headerQ{
   grid-area: header;
-  background-color: orange;
+  background-color: #2BC3FF;
 }
 .leftmenu{
 grid-area: lmenu;
-background-color: orange;
+background-color: #2BC3FF;
 border-top-right-radius: 10px;
 border-bottom-right-radius: 10px;
 }
@@ -40,7 +40,7 @@ border-bottom-left-radius: 10px;
 }
 .footer{
 grid-area: footer;
-background-color: orange;
+background-color: #08A4FF;
 text-align: center;
 height: 100px;
 }
@@ -55,8 +55,9 @@ height: 100px;
   border-radius: 10px;
 }
 .buttonaddpost{
-  width: 70px;
-  height: 30px;
+  margin-left: 15px;
+  width: 80px;
+  height: 50px;
 }
 a{
   text-decoration: none;
@@ -84,6 +85,9 @@ a{
 
 
 /* Стили кнопки выпадающего меню*/
-#sidebar{
-  margin-left: 120px;
+.Dropdown{
+  margin-left: 180px;
+  margin-top: 20px;
+  width: 100px;
+  height: 100px;
 }

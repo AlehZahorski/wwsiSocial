@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './images/domain.svg';
 import '../App.css';
-
+import Dropdown from '../DropMenu/dropdown.js';
 
 const Header = () => {
 return (
@@ -10,22 +10,15 @@ return (
      <img src={logo}  height="50" />
      WWSI social..
   </div>
+<Dropdown />
 
 
 
 
-    <div id="sidebar">
-    <div className="toggle-btn" onclick="openMenu()">
-    <span></span>
-    <span></span>
-    <span></span>
-    </div>
-      <ul>
-        <li><a href="#">Вход</a></li>
-        <li><a href="#">Выход</a></li>
-        <li><a href="#">Регистрация</a></li>
-      </ul>
-    </div>
+
+
+
+
 
 
 
