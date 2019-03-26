@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './LeftMenu.css';
 
 
 const LeftMenu = () => {
@@ -9,6 +10,9 @@ const LeftMenu = () => {
          </div>
          <div>
          <a href="#">Messages</a>
+         </div>
+         <div>
+         <a href="#">Group</a>
          </div>
          <div>
          <a href="#">News</a>

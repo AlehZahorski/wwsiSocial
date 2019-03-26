@@ -56,18 +56,21 @@ grid-gap: 10px;
   background-color: #26FF84;
   border-radius: 5px;
   margin-top: 10px;
+    height: 30px;
 }
 .NewPosts2{
   text-align: center;
   grid-area: NewPosts2;
   background-color: #26FF84;
   border-radius: 5px;
+  height: 30px;
 }
 .NewPosts3{
   text-align: center;
   grid-area: NewPosts3;
   background-color: #26FF84;
   border-radius: 5px;
+    height: 30px;
 }
 .NewPosts4{
   text-align: center;
@@ -75,4 +78,5 @@ grid-gap: 10px;
   background-color: #26FF84;
   border-radius: 5px;
   margin-bottom: 10px;
+    height: 30px;
 }
