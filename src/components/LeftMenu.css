@@ -1,9 +1,0 @@
-.leftmenu{
-grid-area: lmenu;
-background-color: #2BC3FF;
-border-top-right-radius: 10px;
-border-bottom-right-radius: 10px;
-}
-a {
-  color: black;
-}

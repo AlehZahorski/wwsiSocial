@@ -1,0 +1,39 @@
+.Profile {
+margin: 0 auto;
+display: grid;
+
+grid-template-areas:
+"mainphoto mainphoto"
+"Photo Info"
+"AddPosts AddPosts"
+"MyPosts MyPosts"
+;
+
+
+
+grid-template-rows: 90px 1fr;
+grid-template-columns: 5fr 10fr;
+grid-gap: 10px;
+}
+
+.mainphoto{
+  grid-area: mainphoto;
+}
+.mainphoto2{
+  width: 100px;
+  height:120px;
+  border-radius: 5%;
+}
+
+.Photo{
+  grid-area: Photo;
+}
+.Info {
+  text-align: left;
+  grid-area: Info;
+  color: white;
+  margin: 10px;
+}
+.MyPosts{
+  grid-area: MyPosts;
+}

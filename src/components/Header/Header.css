@@ -1,0 +1,7 @@
+.headerQ{
+  grid-area: header;
+  background-color: black;
+}
+.logotopQ{
+  color:white;
+}
