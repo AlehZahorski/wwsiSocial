@@ -8,28 +8,32 @@ import avatar5 from '../../images/avatar5.jpeg';
 
 
 
-const MyPosts = () => {
-return (
-
-<div>
-
-   <textarea className="textarea"></textarea>
-   <button className="AddBut">Add post</button>
-   <button className="RemoveBut">Remove</button>
+const MyPosts = (props) => {
 
 
 
-  <div className="posts">
-   <Post />
-   <Post />
-   <Post />
-  </div>
+  return (
+
+    <div>
+
+    <textarea className="textarea"></textarea>
+    <button className="AddBut">Add post</button>
+    <button className="RemoveBut">Remove</button>
 
 
 
-</div>
+    <div className="posts">
+    <Post message="Tommorow i making my world" />
+    <Post message="Today i have work on google" />
+    <Post message='Yesterday i started learning React' />
 
-);
+    </div>
+
+
+
+    </div>
+
+  );
 }
 
 export default MyPosts;

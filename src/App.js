@@ -7,15 +7,17 @@ import Header from './components/Header/Header';
 import LeftMenu from './components/LeftMenu/LeftMenu';
 import Profile from './components/Profile/Profile';
 import Footer from './components/Footer/Footer';
+import Dialogs from './components/Dialogs/Dialogs.jsx';
 
 
 const App = () => {
-    return (
+  return (
     <div className="app-wrapper">
-     <Header />
-     <LeftMenu />
-     <Profile />
-     <Footer />
+    <Header />
+    <LeftMenu />
+    {/*  <Profile />*/}
+    <Dialogs />
+    <Footer />
 
 
     </div>

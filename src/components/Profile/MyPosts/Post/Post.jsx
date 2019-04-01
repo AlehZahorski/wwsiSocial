@@ -3,19 +3,21 @@ import s from './Post.css';
 import avatar1 from '../../../images/avatar1.jpg';
 
 
-const Post = () => {
-return (
+const Post = (props) => {
+
+
+  return (
 
     <div className="item">
     <img src={avatar1}/>
-      New posts
-      <div>
+    {props.message}
+    <div>
     <span>Like </span>
     <span>Dislike</span>
-      </div>
+    </div>
     </div>
 
-);
+  );
 }
 
 export default Post;
