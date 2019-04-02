@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import './LeftMenu.css';
+import style from './LeftMenu.module.css';
 
 
 const LeftMenu = () => {
   return (
-    <nav className="leftmenu">
+    <nav className={style.leftmenu}>
     <div className="firstmenu">
     <a href="#">Profile</a>
     </div>

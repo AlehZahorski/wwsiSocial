@@ -1,8 +1,6 @@
 .leftmenu{
 grid-area: lmenu;
 background-color: black;
-border-top-right-radius: 10px;
-border-bottom-right-radius: 10px;
 }
 a {
   color: white;
