@@ -8,16 +8,16 @@ const LeftMenu = () => {
     <div className="firstmenu">
     <a href="#">Profile</a>
     </div>
-    <div>
+    <div className="firstmenu">
     <a href="#">Messages</a>
     </div>
-    <div>
+    <div className="firstmenu">
     <a href="#">Group</a>
     </div>
-    <div>
+    <div className="firstmenu">
     <a href="#">News</a>
     </div>
-    <div>
+    <div className="firstmenu">
     <p> <a href="#">Settings</a></p>
     </div>
 
