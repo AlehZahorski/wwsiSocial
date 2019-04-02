@@ -6,19 +6,19 @@ const LeftMenu = () => {
   return (
     <nav className={style.leftmenu}>
     <div className="firstmenu">
-    <a href="#">Profile</a>
+    <a href="/Profile">Profile</a>
     </div>
     <div className="firstmenu">
-    <a href="#">Messages</a>
+    <a href="/Messages">Messages</a>
     </div>
     <div className="firstmenu">
-    <a href="#">Group</a>
+    <a href="/Group">Group</a>
     </div>
     <div className="firstmenu">
-    <a href="#">News</a>
+    <a href="/News">News</a>
     </div>
     <div className="firstmenu">
-    <p> <a href="#">Settings</a></p>
+    <p> <a href="/Settings">Settings</a></p>
     </div>
 
     </nav>

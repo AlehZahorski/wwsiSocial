@@ -1,0 +1,27 @@
+.MyPosts {
+    display: grid;
+    grid-template-rows: 65px 2fr;
+    grid-template-columns: 80px auto;
+    grid-template-areas:
+    "ta ta"
+    "ab rm"
+    "pt pt";
+}
+
+.textarea {
+    grid-area: ta;
+    width:300px;
+    height: 50px;
+}
+.AddBut{
+    grid-area: ab;
+    width: 80px;
+}
+.RemoveBut{
+    grid-area: rm;
+    width: 80px;
+}
+.posts{
+    grid-area: pt;
+    color:white;   
+}

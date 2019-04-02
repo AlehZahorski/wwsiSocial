@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from '../images/domain.svg';
 import '../../App.css';
 import Dropdown from './DropMenu/dropdown.js';
-import './Header.css';
+import  './Header.css';
 
 const Header = () => {
 return (
