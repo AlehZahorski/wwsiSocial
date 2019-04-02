@@ -23,9 +23,8 @@ const MyPosts = (props) => {
 
 
     <div className="posts">
-    <Post message="Tommorow i making my world" />
-    <Post message="Today i have work on google" />
-    <Post message='Yesterday i started learning React' />
+    <Post message="Tomorrow i have work on google" LikesCount="45" />
+    <Post message='Yesterday i started learning React' LikesCount="41" />
 
     </div>
 
