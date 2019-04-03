@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import style from './LeftMenu.module.css';
+import style from './Navbar.module.css';
 
 
-const LeftMenu = () => {
+const Navbar = () => {
   return (
-    <nav className={style.leftmenu}>
+    <nav className={style.Navbar}>
     <div className="firstmenu">
     <a href="/Profile">Profile</a>
     </div>
     <div className="firstmenu">
-    <a href="/Messages">Messages</a>
+    <a href="/Navbar">Messages</a>
     </div>
     <div className="firstmenu">
     <a href="/Group">Group</a>
@@ -25,4 +25,4 @@ const LeftMenu = () => {
   );
 }
 
-export default LeftMenu;
+export default Navbar;
