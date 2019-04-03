@@ -16,8 +16,10 @@ const App = () => {
     <div className="app-wrapper">
     <Header />
     <LeftMenu />
-    <Profile />
-    {/* <Dialogs /> */}
+    {/*<Profile />*/}
+    <div className="app-wrapper-content">
+    <Dialogs />
+    </div>
     <Footer />
 
 

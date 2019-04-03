@@ -1,6 +1,6 @@
 .Profile {
     display: grid;
-    grid-template-rows: 150px 2fr;
+    grid-template-rows: 130px 2fr;
     grid-template-columns: 120px 2fr;
     grid-template-areas:
     "pr pr"

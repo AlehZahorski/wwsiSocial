@@ -17,7 +17,7 @@ const Profile = (props) => {
 
     <div className={style.info}>
      <div>Name: Aleh Zahorski</div>
-     <div>Age:24 age</div>
+     <div>Age:24 years</div>
      <div>Education: WWSI(WebDev)</div>
      <div>Group: D201</div>
      </div>

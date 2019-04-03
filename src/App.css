@@ -1,6 +1,4 @@
 
-
-
 .app-wrapper {
 margin: 0 auto;
 display: grid;
@@ -10,13 +8,16 @@ grid-template-areas:
 "lmenu main"
 "footer footer";
 
-
-
 grid-template-rows: 60px 1fr;
 grid-template-columns: 2.5fr 10fr;
 grid-gap: 10px;
 }
-
+.app-wrapper-content {
+  background-color: black;
+  color:white;
+  text-align: center;
+  height: 100%;
+}
 
 .firstmenu{
   margin-top: 20px;
