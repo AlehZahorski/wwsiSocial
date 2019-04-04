@@ -1,80 +1,84 @@
 
 .app-wrapper {
-margin: 0 auto;
-display: grid;
+    margin: 0 auto;
+    display: grid;
 
-grid-template-areas:
-"header header"
-"lmenu main"
-"footer footer";
+    grid-template-areas: "header header" "lmenu main" "footer footer";
 
-grid-template-rows: 60px 1fr;
-grid-template-columns: 2.5fr 10fr;
-grid-gap: 10px;
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 2.5fr 10fr;
+    grid-gap: 10px;
 }
+
 .app-wrapper-content {
-  background-color: black;
-  color:white;
-  height: 100%;
+    background-color: black;
+    color: white;
+    height: 100%;
 }
 
-.firstmenu{
-  margin-top: 20px;
+.firstmenu {
+    margin-top: 20px;
 }
-.Profile{
-grid-area: main;
-background-color: black;
-border-top-left-radius:10px;
-border-bottom-left-radius: 10px;
+
+.Profile {
+    grid-area: main;
+    background-color: black;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
-.mainphoto1{
-  border-top-left-radius: 10px;
+
+.mainphoto1 {
+    border-top-left-radius: 10px;
 }
 
 
 #InputAddPosts {
-  text-align: left;
-  margin-left: 5px;
+    text-align: left;
+    margin-left: 5px;
 }
+
 #lastname {
-  width:220px;
-  height:20px;
-  border-radius: 10px;
+    width: 220px;
+    height: 20px;
+    border-radius: 10px;
 }
-.buttonaddpost{
-  margin-left: 15px;
-  width: 80px;
-  height: 50px;
+
+.buttonaddpost {
+    margin-left: 15px;
+    width: 80px;
+    height: 50px;
 }
-a{
-  text-decoration: none;
+
+a {
+    text-decoration: none;
 }
+
 .headerQ {
-  margin: 0 auto;
-  display: grid;
+    margin: 0 auto;
+    display: grid;
 
-  grid-template-areas:
-  "headerQ topmenuQ";
+    grid-template-areas: "headerQ topmenuQ";
 
-  grid-template-rows: 10px 1fr;
-  grid-template-columns: 1fr 3fr;
-  grid-gap: 10px;
-}
-.topmenuQ{
-  text-align: right;
-  margin-top: 10px;
-  margin-right: 10px;
+    grid-template-rows: 10px 1fr;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 10px;
 }
 
-.logotopQ{
-  width: 150px;
+.topmenuQ {
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.logotopQ {
+    width: 150px;
 }
 
 
 /* Стили кнопки выпадающего меню*/
-.Dropdown{
-  margin-left: 80px;
-  margin-top: 10px;
-  width: 100px;
-  height: 100px;
+.Dropdown {
+    margin-left: 80px;
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
 }
