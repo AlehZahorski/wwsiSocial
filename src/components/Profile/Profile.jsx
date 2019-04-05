@@ -6,6 +6,7 @@ import style from './Profile.module.css';
 import MyPosts from './MyPosts/MyPosts.jsx';
 
 
+
 const Profile = (props) => {
     return (
         <div className={style.Profile}>

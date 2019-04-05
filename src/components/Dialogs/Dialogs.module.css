@@ -1,6 +1,26 @@
 .content {
+  display: grid;
+  grid-template-columns: 100px auto;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+  "di mi";
   background-color: black;
   color:white;
-  text-align: center;
+  text-align: left;
   height: 475px;
+}
+
+
+.dialogsItem{
+grid-area: di;
+}
+.MessageItem{
+  grid-area: mi;
+}
+
+.messages{
+  padding: 10px;
+}
+.dialog{
+  padding: 10px;
 }

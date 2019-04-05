@@ -1,25 +1,25 @@
 import React, {Component} from 'react';
 import style from './Navbar.module.css';
 import Dialogs from '../Dialogs/Dialogs';
-
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     return (
         <nav className={style.Navbar}>
             <div className="firstmenu">
-                <a href="/Profile">Profile</a>
+                <NavLink to="/Profile" activeClassName={style.activelink}>Profile</NavLink>
             </div>
             <div className="firstmenu">
-                <a href="/Dialogs">Messages</a>
+                <NavLink to="/Dialogs" activeClassName={style.activelink}>Messages</NavLink>
             </div>
             <div className="firstmenu">
-                <a href="#">Group</a>
+                <NavLink to="/Group" activeClassName={style.activelink}>Group</NavLink>
             </div>
             <div className="firstmenu">
-                <a href="#">News</a>
+                <NavLink to="/News" activeClassName={style.activelink}>News</NavLink>
             </div>
             <div className="firstmenu">
-                <p><a href="#">Settings</a></p>
+                <p><NavLink to="/Settings" activeClassName={style.activelink}>Settings</NavLink></p>
             </div>
 
         </nav>

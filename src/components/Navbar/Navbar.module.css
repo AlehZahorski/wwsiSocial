@@ -5,3 +5,6 @@ background-color: black;
 a {
   color: white;
 }
+a.activelink {
+  color: orange;
+}
