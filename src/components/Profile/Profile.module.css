@@ -1,5 +1,8 @@
+
+@media only screen and (max-width: 500px){
 .Profile {
     display: grid;
+    grid-area: main;
     grid-template-rows: 130px 2fr;
     grid-template-columns: 120px 2fr;
     grid-template-areas:
@@ -10,7 +13,6 @@
 
 .profile{
   grid-area: pr;
-
 }
 .mainphoto2{
   grid-area: mp;
@@ -20,8 +22,8 @@
 }
 
 .info {
-  grid-area: info;
   text-align: left;
   color: white;
   margin: 10px;
+}
 }

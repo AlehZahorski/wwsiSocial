@@ -1,3 +1,6 @@
+
+
+@media only screen and (max-width: 500px){
 .MyPosts {
     display: grid;
     grid-template-rows: 45px 2fr;
@@ -7,10 +10,9 @@
     "ab rm"
     "pt pt";
 }
-
 .textarea {
     grid-area: ta;
-    width:300px;
+    width:299px;
     height: 30px;
 }
 .AddBut{
@@ -24,4 +26,5 @@
 .posts{
     grid-area: pt;
     color:white;
+}
 }

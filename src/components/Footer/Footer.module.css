@@ -1,3 +1,6 @@
+
+
+@media only screen and (max-width: 500px){
 .footer {
 grid-area: footer;
 background-color: black;
@@ -7,4 +10,5 @@ color:white;
 }
 .margin{
   margin-bottom: 10px;
+}
 }
