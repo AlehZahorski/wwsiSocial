@@ -1,4 +1,15 @@
-
+.Navbar{
+grid-area: lmenu;
+background-color: black;
+width: 77px;
+height: 100%;
+}
+a {
+  color: white;
+}
+a.activelink {
+  color: orange;
+}
 
 @media only screen and (max-width: 500px){
 .Navbar{

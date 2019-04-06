@@ -1,0 +1,15 @@
+.DropDown {
+  grid-area: DP;
+  width:90px;
+  margin-top: 20px;
+}
+
+.menu {
+  width:90px;
+  height: 65px;
+  text-align: center;
+}
+
+.but{
+  width: 90px;
+}

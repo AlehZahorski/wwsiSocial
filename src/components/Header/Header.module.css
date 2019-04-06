@@ -1,0 +1,48 @@
+.headerQ{
+  grid-area: header;
+  background-color: black;
+  width: 100%;
+  margin: 0 auto;
+  height: 60px;
+  display: grid;
+  grid-template-columns: 90% 10%;
+  grid-template-areas:
+  "LP DP";
+}
+.logotopQ{
+  grid-area: LP;
+  color:white;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px){
+  .headerQ{
+    grid-area: header;
+    background-color: black;
+    width: 100%;
+    margin: 0 auto;
+    height: 60px;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-areas:
+    "LP DP";
+  }
+  .logotopQ{
+    grid-area: LP;
+    color:white;
+  }
+  #DRopDown{
+   grid-area: DP;
+  }
+  #wwsisocial{
+    grid-area: WS;
+  }
+}

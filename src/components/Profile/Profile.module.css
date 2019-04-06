@@ -1,3 +1,35 @@
+.Profile {
+    display: grid;
+    grid-area: main;
+    grid-template-rows: 130px 2fr;
+    grid-template-columns: 120px 2fr;
+    grid-template-areas:
+    "pr pr"
+    "mp info";
+    background-color: black;
+}
+
+.profile{
+  grid-area: pr;
+}
+.mainphoto2{
+  grid-area: mp;
+  width: 120px;
+  height:140px;
+  border-radius: 5%;
+}
+
+.info {
+  text-align: left;
+  color: white;
+  margin: 10px;
+}
+
+
+
+
+
+
 
 @media only screen and (max-width: 500px){
 .Profile {
