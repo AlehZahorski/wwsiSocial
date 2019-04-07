@@ -3,6 +3,10 @@ import style from './Navbar.module.css';
 import Dialogs from '../Dialogs/Dialogs';
 import { NavLink } from 'react-router-dom';
 
+
+
+
+
 const Navbar = () => {
     return (
         <nav className={style.Navbar}>
@@ -25,5 +29,6 @@ const Navbar = () => {
         </nav>
     );
 }
+
 
 export default Navbar;

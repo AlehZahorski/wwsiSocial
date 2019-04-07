@@ -9,7 +9,7 @@
 }
 .textarea {
     grid-area: ta;
-    width:299px;
+    width:400px;
     height: 30px;
 }
 .AddBut{
@@ -43,7 +43,7 @@
 }
 .textarea {
     grid-area: ta;
-    width:299px;
+    width:297px;
     height: 30px;
 }
 .AddBut{

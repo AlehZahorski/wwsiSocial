@@ -8,6 +8,7 @@ import Footer from './components/Footer/Footer';
 import Dialogs from './components/Dialogs/Dialogs.jsx';
 const App = (props) => {
     return (
+
         <BrowserRouter>
             <switch className="app-wrapper">
                 <Header/>
@@ -19,6 +20,7 @@ const App = (props) => {
                 <Footer />
             </switch>
         </BrowserRouter>
+
     );
 }
 

@@ -5,8 +5,8 @@
 .app-wrapper{
   margin: 0 auto;
   display: grid;
-  grid-template-rows: 60px 770px 237px;
-  grid-template-columns: 20% 80%;
+  grid-template-rows: 60px 792px 100px;
+  grid-template-columns: 32% 67.5%;
   grid-template-areas:
   "header header"
   "lmenu main"
@@ -66,8 +66,6 @@ a {
 .logotopQ {
     width: 150px;
 }
-
-
 
 
 

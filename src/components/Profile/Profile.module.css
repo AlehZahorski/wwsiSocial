@@ -1,11 +1,13 @@
+
 .Profile {
     display: grid;
     grid-area: main;
-    grid-template-rows: 130px 2fr;
-    grid-template-columns: 120px 2fr;
+    grid-template-columns: 10% 50%;
+    grid-template-rows: 40% 30% 30%;
     grid-template-areas:
     "pr pr"
-    "mp info";
+    "mp2 mp"
+    "tx tx";
     background-color: black;
 }
 
@@ -13,18 +15,23 @@
   grid-area: pr;
 }
 .mainphoto2{
-  grid-area: mp;
+  grid-area: mp2;
   width: 120px;
   height:140px;
   border-radius: 5%;
 }
 
 .info {
+  text-area: tx;
   text-align: left;
   color: white;
   margin: 10px;
 }
-
+.mainphoto{
+  width:750px;
+  height: 200px;
+  text-area: mp;
+}
 
 
 
@@ -35,11 +42,12 @@
 .Profile {
     display: grid;
     grid-area: main;
-    grid-template-rows: 130px 2fr;
-    grid-template-columns: 120px 2fr;
+    grid-template-columns: 113px 190px;
+    grid-template-rows: 140px 147px;
     grid-template-areas:
     "pr pr"
-    "mp info";
+    "mp mp2"
+    "tx tx";
     background-color: black;
 }
 
@@ -52,7 +60,9 @@
   height:140px;
   border-radius: 5%;
 }
-
+.mainphoto{
+  width:100%;
+}
 .info {
   text-align: left;
   color: white;

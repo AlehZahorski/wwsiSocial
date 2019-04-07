@@ -11,7 +11,7 @@ const Profile = (props) => {
     return (
         <div className={style.Profile}>
             <div className={style.profile}>
-                <img className={style.mainphoto} src={main} width="100%"/>
+                <img className={style.mainphoto} src={main}/>
             </div>
             <div className={style.mainphoto2}>
                 <img className={style.mainphoto2} src={profile}/>

@@ -11,6 +11,7 @@ const Header = () => {
     return (
 
         <header className={style.headerQ}>
+        <div className="empty"></div>
             <div className={style.logotopQ}>
                 <img src={logo} height="50"/>
               WWSI social..
@@ -18,6 +19,7 @@ const Header = () => {
         <div className={style.DropDown}>
           <DropDown className={ss.DRopDown}/>
         </div>
+        <div className="empty1"></div>
         </header>
 
     );

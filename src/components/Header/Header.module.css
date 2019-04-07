@@ -5,16 +5,20 @@
   margin: 0 auto;
   height: 60px;
   display: grid;
-  grid-template-columns: 90% 10%;
+  grid-template-columns: 25% 40% 10% 25%;
   grid-template-areas:
-  "LP DP";
+  "emp LP DP emp1";
 }
 .logotopQ{
   grid-area: LP;
   color:white;
 }
-
-
+.empty{
+  grid-area: emp;
+}
+.empty1{
+  grid-area: emp1;
+}
 
 
 
@@ -31,9 +35,9 @@
     margin: 0 auto;
     height: 60px;
     display: grid;
-    grid-template-columns: 75% 25%;
+    grid-template-columns:0 75% 25% 0;
     grid-template-areas:
-    "LP DP";
+    "emp LP DP emp1";
   }
   .logotopQ{
     grid-area: LP;
@@ -44,5 +48,11 @@
   }
   #wwsisocial{
     grid-area: WS;
+  }
+  .empty{
+    grid-area: emp;
+  }
+  .empty1{
+    grid-area: emp1;
   }
 }

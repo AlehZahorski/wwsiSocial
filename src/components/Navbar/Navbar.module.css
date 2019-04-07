@@ -1,8 +1,9 @@
 .Navbar{
 grid-area: lmenu;
 background-color: black;
-width: 77px;
+width: 107px;
 height: 100%;
+padding-left: 82%;
 }
 a {
   color: white;
@@ -15,6 +16,9 @@ a.activelink {
 .Navbar{
 grid-area: lmenu;
 background-color: black;
+width: 77px;
+height: 100%;
+padding-left: 0;
 }
 a {
   color: white;
@@ -22,4 +26,5 @@ a {
 a.activelink {
   color: orange;
 }
+
 }
