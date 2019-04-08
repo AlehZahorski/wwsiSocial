@@ -4,6 +4,7 @@ import main from '../images/main.jpeg';
 import profile from '../images/profile.jpg';
 import style from './Profile.module.css';
 import MyPosts from './MyPosts/MyPosts.jsx';
+import DropDown from '../Header/DropDown/DropDown.jsx';
 
 
 

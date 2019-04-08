@@ -83,7 +83,7 @@ a {
     "lmenu main"
     "footer footer";
 
-    grid-template-rows: 60px 1fr;
+    grid-template-rows: 60px 490px 20px;
     grid-template-columns: 2.5fr 10fr;
     grid-gap: 10px;
 }
