@@ -28,7 +28,7 @@
   margin: 10px;
 }
 .mainphoto{
-  width:750px;
+  width:720px;
   height: 200px;
   text-area: mp;
 }
@@ -61,7 +61,8 @@
   border-radius: 5%;
 }
 .mainphoto{
-  width:100%;
+  width:310px;
+  height: 160px;
 }
 .info {
   text-align: left;
