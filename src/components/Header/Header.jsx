@@ -13,7 +13,7 @@ const Header = () => {
         <header className={style.headerQ}>
         <div className="empty"></div>
             <div className={style.logotopQ}>
-                <img src={logo} height="50"/>
+                <img src={logo} className={style.logo}/>
               WWSI social..
             </div>
         <div className={style.DropDown}>

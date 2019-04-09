@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import style from './DropDown.module.css';
+import dropdown from '../../images/dropdown.png';
 
 class DropDown extends Component {
   constructor() {
@@ -36,7 +37,7 @@ class DropDown extends Component {
     return (
       <div>
         <button onClick={this.showMenu}  className={style.DropDown}>
-          Show menu
+          <em><img src={dropdown} className={style.DropdownMenu}></img></em>
         </button>
 
         {
@@ -48,9 +49,9 @@ class DropDown extends Component {
                   this.dropdownMenu = element;
                 }}
               >
-                <button className={style.but}> Menu item 1 </button>
-                <button className={style.but}> Menu item 2 </button>
-                <button className={style.but}> Menu item 3 </button>
+                <button className={style.but}> Log in </button>
+                <button className={style.but}> Registration </button>
+                <button className={style.but}> Log out </button>
               </div>
             )
             : (

@@ -9,8 +9,8 @@
   grid-template-columns: 32% 67.5%;
   grid-template-areas:
   "header header"
-  "lmenu main"
-  "footer footer";
+  "main main"
+  "lmenu lmenu";
   grid-gap: 10px;
 }
 .app-wrapper-content {
@@ -80,11 +80,11 @@ a {
 
     grid-template-areas:
     "header header"
-    "lmenu main"
-    "footer footer";
+    "main main"
+    "lmenu lmenu";
 
-    grid-template-rows: 60px 490px 20px;
-    grid-template-columns: 2.5fr 10fr;
+    grid-template-rows: 60px 540px 20px;
+    grid-template-columns: 2.5fr 9.5fr;
     grid-gap: 10px;
 }
 

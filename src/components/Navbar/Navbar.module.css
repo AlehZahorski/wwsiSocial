@@ -1,9 +1,9 @@
 .Navbar{
-grid-area: lmenu;
-background-color: black;
-width: 107px;
-height: 100%;
-padding-left: 82%;
+  grid-area: lmenu;
+  background-color: black;
+  width: 107px;
+  height: 100px;
+  padding-left: 82%;
 }
 a {
   color: white;
@@ -13,18 +13,43 @@ a.activelink {
 }
 
 @media only screen and (max-width: 500px){
-.Navbar{
-grid-area: lmenu;
-background-color: black;
-width: 77px;
-height: 492px;
-padding-left: 0;
-}
-a {
-  color: white;
-}
-a.activelink {
-  color: orange;
-}
-
+  .Navbar{
+    grid-area: lmenu;
+    background-color: black;
+    margin-left: 0 auto;
+    width: 100%;
+    height: 55px;
+    padding-left: 0;
+  }
+  a {
+    color: red;
+  }
+  a.activelink {
+    color: orange;
+  }
+  .NavbarProfile {
+    margin-left: 7%;
+    width: 40px;
+    height: 40px;
+  }
+  .NavbarMessages{
+    margin-left: 8%;
+    width: 40px;
+    height: 40px;
+  }
+  .NavbarNews{
+    margin-left: 8%;
+    width: 40px;
+    height: 40px;
+  }
+  .NavbarGroup{
+    margin-left: 8%;
+    width: 40px;
+    height: 40px;
+  }
+  .NavbarSettings{
+    margin-left: 8%;
+    width: 40px;
+    height: 40px;
+  }
 }

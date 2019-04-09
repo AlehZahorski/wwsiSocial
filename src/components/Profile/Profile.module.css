@@ -16,7 +16,7 @@
 }
 .mainphoto2{
   grid-area: mp2;
-  width: 120px;
+  width: 140px;
   height:140px;
   border-radius: 5%;
 }
@@ -42,7 +42,7 @@
 .Profile {
     display: grid;
     grid-area: main;
-    grid-template-columns: 113px 190px;
+    grid-template-columns: 205px 187px;
     grid-template-rows: 140px 147px;
     grid-template-areas:
     "pr pr"
@@ -53,6 +53,7 @@
 
 .profile{
   grid-area: pr;
+  width: 100%;
 }
 .mainphoto2{
   grid-area: mp;
@@ -61,7 +62,7 @@
   border-radius: 5%;
 }
 .mainphoto{
-  width:310px;
+  width:100%;
   height: 160px;
 }
 .info {

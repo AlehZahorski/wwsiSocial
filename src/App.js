@@ -9,21 +9,20 @@ import Dialogs from './components/Dialogs/Dialogs.jsx';
 import DropDown from './components/Header/DropDown/DropDown.jsx';
 
 const App = (props) => {
-    return (
+  return (
 
-        <BrowserRouter>
-            <switch className="app-wrapper">
-                <Header />
-                <Navbar />
-                <div className="app-wrapper-content">
-                    <Route exact path="/Profile" component={Profile}/>
-                    <Route exact path="/Dialogs" component={Dialogs}/>
-                </div>
-                <Footer />
-            </switch>
-        </BrowserRouter>
+    <BrowserRouter>
+    <switch className="app-wrapper">
+    <Header />
+    <div className="app-wrapper-content">
+    <Route exact path="/Profile" component={Profile}/>
+    <Route exact path="/Dialogs" component={Dialogs}/>
+    </div>
+    <Navbar />
+    </switch>
+    </BrowserRouter>
 
-    );
+  );
 }
 
 

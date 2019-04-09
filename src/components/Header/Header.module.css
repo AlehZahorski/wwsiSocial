@@ -1,13 +1,14 @@
 .headerQ{
   grid-area: header;
   background-color: black;
-  width: 100%;
+  width: 97.5%;
   margin: 0 auto;
   height: 60px;
   display: grid;
-  grid-template-columns: 25% 40% 10% 25%;
+  grid-template-columns: 0 70% 27.5% 0;
   grid-template-areas:
   "emp LP DP emp1";
+  z-index: 1;
 }
 .logotopQ{
   grid-area: LP;
@@ -18,6 +19,9 @@
 }
 .empty1{
   grid-area: emp1;
+}
+.logo{
+  height:50px;
 }
 
 
@@ -32,12 +36,13 @@
     grid-area: header;
     background-color: black;
     width: 100%;
-    margin: 0 auto;
+    margin-left: 0;
     height: 60px;
     display: grid;
-    grid-template-columns:0 75% 25% 0;
+    grid-template-columns:0 70% 30% 0;
     grid-template-areas:
-    "emp LP DP emp1";
+    "mp LP DP mp1";
+    z-index: 1;
   }
   .logotopQ{
     grid-area: LP;
