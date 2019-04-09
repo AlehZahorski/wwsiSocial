@@ -2,12 +2,12 @@
 .Profile {
     display: grid;
     grid-area: main;
-    grid-template-columns: 10% 50%;
+    grid-template-columns: 10% 50% ;
     grid-template-rows: 40% 30% 30%;
     grid-template-areas:
-    "pr pr"
-    "mp2 mp"
-    "tx tx";
+    "tx tx"
+    "mp m2"
+    "pr pr";
     background-color: black;
 }
 
@@ -53,16 +53,16 @@
 
 .profile{
   grid-area: pr;
-  width: 100%;
+
 }
 .mainphoto2{
   grid-area: mp;
-  width: 120px;
+  width: 80%;
   height:140px;
   border-radius: 5%;
 }
 .mainphoto{
-  width:100%;
+  width:392px;
   height: 160px;
 }
 .info {

@@ -1,6 +1,6 @@
 .MyPosts {
     display: grid;
-    grid-template-rows: 45px 2fr;
+    grid-template-rows: 23% 10%;
     grid-template-columns: 80px auto;
     grid-template-areas:
     "ta ta"

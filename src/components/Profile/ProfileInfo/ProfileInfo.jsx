@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+/*import React, {Component} from 'react';
 import style from 'ProfileInfo.module.css';
 import
 
@@ -16,3 +16,4 @@ const ProfileInfo = (props) => {
 }
 
 export default ProfileInfo;
+*/

@@ -25,7 +25,6 @@ const Profile = (props) => {
                 <div>Group: D201</div>
             </div>
 
-
             <div className="MyPosts">
                 <MyPosts/>
             </div>
