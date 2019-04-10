@@ -9,7 +9,6 @@
     "mp2 tx"
     "mp mp";
     background-color: black;
-    margin-left: 27%;
 }
 
 .profile{
@@ -29,14 +28,10 @@
   margin: 10px;
 }
 .mainphoto{
-  width:550px;
+  width:437px;
   height: 200px;
   text-area: mp;
 }
-
-
-
-
 
 
 @media only screen and (max-width: 500px){
@@ -44,8 +39,8 @@
     margin-left: 0;
     display: grid;
     grid-area: main;
-    grid-template-columns: 205px 187px;
-    grid-template-rows: 140px 147px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25% 30%;
     grid-template-areas:
     "pr pr"
     "mp mp2"

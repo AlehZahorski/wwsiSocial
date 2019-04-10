@@ -5,12 +5,12 @@
 .app-wrapper{
   margin: 0 auto;
   display: grid;
-  grid-template-rows: 60px 792px 100px;
-  grid-template-columns: 100%;
+  grid-template-rows: 60px 592px 100px;
+  grid-template-columns: 35% 65%;
   grid-template-areas:
-  "header"
-  "main"
-  "lmenu";
+  "header header"
+  "lmenu main"
+  "footer footer";
   grid-gap: 10px;
 }
 .app-wrapper-content {
@@ -34,7 +34,6 @@
 .mainphoto1 {
     border-top-left-radius: 10px;
 }
-
 
 #InputAddPosts {
     text-align: left;
