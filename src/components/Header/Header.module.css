@@ -5,7 +5,7 @@
   margin: 0 auto;
   height: 60px;
   display: grid;
-  grid-template-columns: 25% 40% 10% 25%;
+  grid-template-columns: 27% 40% 10% 23%;
   grid-template-areas:
   "emp LP DP emp1";
   z-index: 1;

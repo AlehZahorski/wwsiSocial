@@ -6,11 +6,11 @@
   margin: 0 auto;
   display: grid;
   grid-template-rows: 60px 792px 100px;
-  grid-template-columns: 0 70% 30% 0;
+  grid-template-columns: 100%;
   grid-template-areas:
-  "emp header header emp1"
-  "emp main main emp1"
-  "emp lmenu lmenu emp1";
+  "header"
+  "main"
+  "lmenu";
   grid-gap: 10px;
 }
 .app-wrapper-content {
@@ -79,12 +79,12 @@ a {
     display: grid;
 
     grid-template-areas:
-    "header header"
-    "main main"
-    "lmenu lmenu";
+    "header"
+    "main"
+    "lmenu";
 
     grid-template-rows: 60px 540px 20px;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 100%;
     grid-gap: 10px;
 }
 
