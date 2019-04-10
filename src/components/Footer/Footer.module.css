@@ -18,8 +18,8 @@ color:white;
 grid-area: footer;
 background-color: black;
 text-align: center;
-height: 130px;
 color:white;
+visibility: hidden;
 }
 .margin{
   margin-bottom: 10px;
