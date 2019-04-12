@@ -13,6 +13,7 @@
 
 .profile{
   grid-area: pr;
+  min-height: 430px;
 }
 .mainphoto2{
   grid-area: mp2;
@@ -28,7 +29,7 @@
   margin: 10px;
 }
 .mainphoto{
-  width:437px;
+  width:86%;
   height: 200px;
   text-area: mp;
 }
@@ -50,6 +51,7 @@
 
 .profile{
   grid-area: pr;
+  min-height: auto;
 
 }
 .mainphoto2{

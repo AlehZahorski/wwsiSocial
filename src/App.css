@@ -5,19 +5,19 @@
 .app-wrapper{
   margin: 0 auto;
   display: grid;
-  grid-template-rows: 60px 592px 100px;
+  grid-template-rows: 6% 84% 10%;
   grid-template-columns: 35% 65%;
   grid-template-areas:
   "header header"
   "lmenu main"
   "footer footer";
-  grid-gap: 10px;
+  grid-gap: 5px;
 }
 .app-wrapper-content {
     background-color: black;
     color: white;
     height: 100%;
-    min-height: 450px;
+    min-height: 760px;
 }
 
 .firstmenu {
@@ -53,6 +53,7 @@
 }
 
 a {
+  color: white;
     text-decoration: none;
 }
 
@@ -80,7 +81,8 @@ a {
     grid-template-areas:
     "header"
     "main"
-    "lmenu";
+    "lmenu"
+    "footer";
 
     grid-template-rows: 60px 540px 20px;
     grid-template-columns: 100%;
@@ -143,5 +145,6 @@ a {
 .logotopQ {
     width: 150px;
 }
+
 
 }

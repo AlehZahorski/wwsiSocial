@@ -39,7 +39,7 @@
     margin-left: 0;
     height: 60px;
     display: grid;
-    grid-template-columns:0 85% 15% 0;
+    grid-template-columns:0 86% 14% 0;
     grid-template-areas:
     "mp LP DP mp1";
     z-index: 1;

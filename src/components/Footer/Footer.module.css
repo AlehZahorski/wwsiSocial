@@ -5,9 +5,7 @@ text-align: center;
 height: 130px;
 color:white;
 }
-.margin{
-  margin-bottom: 10px;
-}
+
 
 
 
@@ -16,12 +14,6 @@ color:white;
 @media only screen and (max-width: 500px){
 .footer {
 grid-area: footer;
-background-color: black;
-text-align: center;
-color:white;
-visibility: hidden;
-}
-.margin{
-  margin-bottom: 10px;
+display: none;
 }
 }

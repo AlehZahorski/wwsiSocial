@@ -19,7 +19,7 @@ const App = (props) => {
     <Route exact path="/Dialogs" component={Dialogs}/>
     </div>
     <Navbar />
-    
+    <Footer />
     </switch>
     </BrowserRouter>
 

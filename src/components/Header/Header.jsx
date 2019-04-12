@@ -12,10 +12,10 @@ const Header = () => {
 
         <header className={style.headerQ}>
         <div className="empty"></div>
-            <div className={style.logotopQ}>
+            <a href="/Profile" className={style.logotopQ}>
                 <img src={logo} className={style.logo}/>
               WWSI social..
-            </div>
+            </a>
         <div className={style.DropDown}>
           <DropDown className={ss.DRopDown}/>
         </div>

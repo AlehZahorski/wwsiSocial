@@ -13,9 +13,6 @@
   "nb4"
   "nb5";
 }
-a {
-  color: white;
-}
 a.activelink {
   color: orange;
 }
@@ -51,6 +48,10 @@ a.activelink {
   height: 20px;
 }
 
+.widocznosc {
+  z-index: 1;
+}
+
 
 
 
@@ -72,12 +73,13 @@ a.activelink {
     "nb3"
     "nb4"
     "nb5";
+    z-index: 1;
   }
   a {
-    color: black;
+    color: white;
   }
   a.activelink {
-    color: orange;
+    color: black;
   }
   .NavbarProfile {
     margin-left: 50px;
@@ -105,4 +107,7 @@ a.activelink {
     width: 40px;
     height: 40px;
   }
+.textes {
+  display: none;
+}
 }
