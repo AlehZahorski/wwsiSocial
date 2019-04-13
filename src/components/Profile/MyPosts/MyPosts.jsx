@@ -1,10 +1,15 @@
 import React, {Component} from 'react';
+import {BrowserRouter, Route, Link} from 'react-router-dom';
 import style from './MyPosts.module.css';
 import Post from './Post/Post';
 
 
 const MyPosts = (props) => {
 
+  let PostData = [
+    { id: 0, message: 'Tomorrow i have work on google', LikesCount:41},
+    { id: 1, message: 'Yesterday i started learning React', LikesCount:45}
+  ]
 
     return (
 
@@ -16,8 +21,8 @@ const MyPosts = (props) => {
 
 
             <div className={style.posts}>
-                <Post message="Tomorrow i have work on google" LikesCount="45"/>
-                <Post message='Yesterday i started learning React' LikesCount="41"/>
+                <Post message={PostData[0].message} LikesCount={PostData[0].LikesCount}/>
+                <Post message={PostData[1].message} LikesCount={PostData[1].LikesCount}/>
 
             </div>
 
