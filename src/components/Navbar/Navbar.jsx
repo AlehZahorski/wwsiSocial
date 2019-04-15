@@ -29,10 +29,10 @@ const Navbar = () => {
                 <NavLink to="/Dialogs" activeClassName={style.activelink}><img src={messages} className={style.NavbarMessages}></img><span className={style.textes}>Messages</span></NavLink>
             </em>
             <em className="firstmenu">
-                <NavLink to="/Group" activeClassName={style.activelink}><img src={news} className={style.NavbarGroup}></img><span className={style.textes}>Group</span></NavLink>
+                <NavLink to="/News" activeClassName={style.activelink}><img src={news}className={style.NavbarNews}></img><span className={style.textes}>News</span></NavLink>
             </em>
             <em className="firstmenu">
-                <NavLink to="/News" activeClassName={style.activelink}><img src={group}className={style.NavbarNews}></img><span className={style.textes}>News</span></NavLink>
+                <NavLink to="/Group" activeClassName={style.activelink}><img src={group} className={style.NavbarGroup}></img><span className={style.textes}>Group</span></NavLink>
             </em>
             <em className="firstmenu">
                 <NavLink to="/Settings" activeClassName={style.activelink}><img src={settings} className={style.NavbarSettings}></img><span className={style.textes}>Settings</span></NavLink>

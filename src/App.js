@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 import {BrowserRouter, Route, Link} from 'react-router-dom';
 import './App.css';
+import Settings from './components/Settings/Settings';
+import News from './components/News/News';
+import Group from './components/Group/Group';
 import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
 import Profile from './components/Profile/Profile';
@@ -17,6 +20,9 @@ const App = (props) => {
     <div className="app-wrapper-content">
     <Route exact path="/Profile" component={Profile}/>
     <Route exact path="/Dialogs" component={Dialogs}/>
+    <Route exact path="/News" component={News}/>
+    <Route exact path="/Group" component={Group}/>
+    <Route exact path="/Settings" component={Settings}/>
     </div>
     <Navbar />
     <Footer />
