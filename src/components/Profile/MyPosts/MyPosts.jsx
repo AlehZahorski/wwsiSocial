@@ -4,13 +4,11 @@ import style from './MyPosts.module.css';
 import Post from './Post/Post';
 
 
+
 const MyPosts = (props) => {
 
-  let PostData = [
-    { id: 0, message: 'Tomorrow i have work on google', LikesCount:41},
-    { id: 1, message: 'Yesterday i started learning React', LikesCount:45}
-  ]
-  let PostsElements = PostData.map( (posts) => {
+
+  let PostsElements = props.posts.map( (posts) => {
     return (
         <Post message={posts.message} LikesCount={posts.LikesCount}/>
     )

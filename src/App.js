@@ -11,23 +11,24 @@ import Footer from './components/Footer/Footer';
 import Dialogs from './components/Dialogs/Dialogs.jsx';
 import DropDown from './components/Header/DropDown/DropDown.jsx';
 
-const App = (props) => {
-  return (
 
-    <BrowserRouter>
-    <switch className="app-wrapper">
-    <Header />
-    <div className="app-wrapper-content">
-    <Route exact path="/Profile" component={Profile}/>
-    <Route exact path="/Dialogs" component={Dialogs}/>
-    <Route exact path="/News" component={News}/>
-    <Route exact path="/Group" component={Group}/>
-    <Route exact path="/Settings" component={Settings}/>
-    </div>
-    <Navbar />
-    <Footer />
-    </switch>
-    </BrowserRouter>
+const App = (props) => {
+
+  return (
+     <BrowserRouter>
+     <switch className="app-wrapper">
+     <Header />
+     <div className="app-wrapper-content">
+     <Route exact path="/Profile" render={ () => <Profile posts={props.posts} />}/>
+     <Route exact path="/Dialogs" render={ () => <Dialogs dialogs={props.dialogs} messages={props.messages}/>}/>
+     <Route exact path="/News" component={News}/>
+     <Route exact path="/Group" component={Group}/>
+     <Route exact path="/Settings" component={Settings}/>
+     </div>
+     <Navbar />
+     <Footer />
+     </switch>
+     </BrowserRouter>
 
   );
 }
