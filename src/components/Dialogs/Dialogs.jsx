@@ -2,23 +2,23 @@ import React from 'react';
 import style from './Dialogs.module.css';
 import DialogItem from './DialogItem/DialogItem';
 import MessageItem from './Message/Message';
-
+//import d1 from '../../images/d1.jpg';
 
 
 const Dialogs = (props) => {
 
 
-  let DialogsElements = props.dialogs.map( (dialog) => {
+  let DialogsElements = props.state.dialogs.map( (dialog) => {
     return (
       <DialogItem name={dialog.name} id={dialog.id}/>
     )
   });
 
-  let MessageElements = props.messages.map( (messages) => {
+  let MessageElements = props.state.messages.map( (messages) => {
     return (
       <MessageItem message={messages.message} />
     )
-  })
+  });
 
   return (
     <div className={style.content}>

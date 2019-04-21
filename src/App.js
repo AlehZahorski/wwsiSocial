@@ -19,8 +19,8 @@ const App = (props) => {
      <switch className="app-wrapper">
      <Header />
      <div className="app-wrapper-content">
-     <Route exact path="/Profile" render={ () => <Profile posts={props.posts} />}/>
-     <Route exact path="/Dialogs" render={ () => <Dialogs dialogs={props.dialogs} messages={props.messages}/>}/>
+     <Route exact path="/Profile" render={ () => <Profile state={props.state.ProfilePage} />}/>
+     <Route exact path="/Dialogs" render={ () => <Dialogs state={props.state.DialogsPage}/>}/>
      <Route exact path="/News" component={News}/>
      <Route exact path="/Group" component={Group}/>
      <Route exact path="/Settings" component={Settings}/>
