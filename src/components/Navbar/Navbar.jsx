@@ -13,14 +13,13 @@ import settings from '../images/settings.png';
 
 
 const Navbar = () => {
-  /*// const arr = [{link: '', image:'', text: ''},{}]
-  // { arr.map(el => (
-  //   <em className="firstmenu">
-  //       <NavLink to={el.link} activeClassName={style.activelink}><img src={profile} className={style.NavbarProfile}></img><span className={style.textes}>Profile</span></NavLink>
-  //   </em>
-  // )) } react map to jsx*/
+  /* const arr = [{link: '', image:'', text: ''},{}]
+   { arr.map(el => (
+     <em className="firstmenu">
+         <NavLink to={el.link} activeClassName={style.activelink}><img src={profile} className={style.NavbarProfile}></img><span className={style.textes}>Profile</span></NavLink>
+     </em>
+   )) } react map to jsx*/
     return (
-
         <nav className={style.Navbar}>
             <em className="firstmenu">
                 <NavLink to="/Profile" activeClassName={style.activelink}><img src={profile} className={style.NavbarProfile}></img><span className={style.textes}>Profile</span></NavLink>

@@ -1,3 +1,5 @@
+import {rerenderFullApp} from './rerender.js';
+
 
 let state = {
   ProfilePage: {
@@ -17,11 +19,21 @@ let state = {
    messages:  [
   { id: 1, message: 'Hi. whatsup????'},
   { id: 2, message: 'Hello. How are you?'},
-  { id: 3, message: 'Siemasz co tam?'},
-  { id: 4, message: 'Wiez nie pierdol'},
-  { id: 5, message: 'GTFO! man! GTFO!!!'}
+  { id: 3, message: 'elo elo elo!'},
+  { id: 4, message: 'Эй, где мои бабки.. чувак?!!'},
+  { id: 5, message: 'Привет!'}
 ]
 }
+}
+
+export let addPost = (postMessage) => {
+  let NewPost ={
+    id: 5,
+    message: postMessage,
+    LikesCount: 0
+  };
+  state.ProfilePage.posts.push(NewPost);
+  rerenderFullApp(state);
 }
 
 export default state;
