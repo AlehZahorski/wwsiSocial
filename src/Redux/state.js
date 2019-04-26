@@ -6,7 +6,8 @@ let state = {
    posts: [
   { message: 'Tomorrow i have work on google', LikesCount:41},
   { message: 'Yesterday i started learning React', LikesCount:45}
-]
+],
+   NewPostText: 'Enter your message..'
 },
    DialogsPage: {
    dialogs: [
@@ -26,13 +27,22 @@ let state = {
 }
 }
 
-export let addPost = (postMessage) => {
-  let NewPost ={
+window.state = state;
+
+
+export let addPost = () => {
+  let newPost ={
     id: 5,
-    message: postMessage,
+    message: state.ProfilePage.NewPostText,
     LikesCount: 0
   };
-  state.ProfilePage.posts.push(NewPost);
+  state.ProfilePage.posts.push(newPost);
+  state.ProfilePage.NewPostText = '';
+  rerenderFullApp(state);
+}
+
+export let updateNewPostText = (newText) => {
+  state.NewPostText = newText;
   rerenderFullApp(state);
 }
 

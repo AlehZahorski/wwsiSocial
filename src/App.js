@@ -14,20 +14,25 @@ import DropDown from './components/Header/DropDown/DropDown.jsx';
 
 const App = (props) => {
   return (
-     <BrowserRouter>
-     <switch className="app-wrapper">
-     <Header />
-     <div className="app-wrapper-content">
-     <Route exact path="/Profile" render={ () => <Profile state={props.state.ProfilePage} addPost={props.addPost}/>}/>
-     <Route exact path="/Dialogs" render={ () => <Dialogs state={props.state.DialogsPage} />}/>
-     <Route exact path="/News" component={News}/>
-     <Route exact path="/Group" component={Group}/>
-     <Route exact path="/Settings" component={Settings}/>
-     </div>
-     <Navbar />
-     <Footer />
-     </switch>
-     </BrowserRouter>
+    <BrowserRouter>
+    <switch className="app-wrapper">
+    <Header />
+    <div className="app-wrapper-content">
+    <Route exact path="/Profile"
+    render={ () => <Profile
+    profilePage={props.state.ProfilePage}
+    addPost={props.addPost}
+    updateNewPostText={props.updateNewPostText}/>}/>
+    <Route exact path="/Dialogs"
+    render={ () => <Dialogs state={props.state.DialogsPage} />}/>
+    <Route exact path="/News" component={News}/>
+    <Route exact path="/Group" component={Group}/>
+    <Route exact path="/Settings" component={Settings}/>
+    </div>
+    <Navbar />
+    <Footer />
+    </switch>
+    </BrowserRouter>
 
   );
 }
