@@ -37,12 +37,11 @@ export let addPost = () => {
     LikesCount: 0
   };
   state.ProfilePage.posts.push(newPost);
-  state.ProfilePage.NewPostText = '';
   rerenderFullApp(state);
 }
 
 export let updateNewPostText = (newText) => {
-  state.NewPostText = newText;
+  state.ProfilePage.NewPostText = newText;
   rerenderFullApp(state);
 }
 
