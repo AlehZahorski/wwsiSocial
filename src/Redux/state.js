@@ -1,5 +1,6 @@
-import {rerenderFullApp} from './rerender.js';
-
+let rerenderFullApp = () => {
+  console.log('Hello, we have changes in state!');
+}
 
 let state = {
   ProfilePage: {
@@ -9,7 +10,7 @@ let state = {
 ],
    NewPostText: 'Enter your message..'
 },
-   DialogsPage: {
+  DialogsPage: {
    dialogs: [
   { id: 1, name: 'Andzrej'},
   { id: 2, name: 'Grzegorz'},
@@ -29,8 +30,7 @@ let state = {
 
 window.state = state;
 
-
-export let addPost = () => {
+export const addPost = () => {
   let newPost ={
     id: 5,
     message: state.ProfilePage.NewPostText,
@@ -40,9 +40,12 @@ export let addPost = () => {
   rerenderFullApp(state);
 }
 
-export let updateNewPostText = (newText) => {
+export const updateNewPostText = (newText) => {
   state.ProfilePage.NewPostText = newText;
   rerenderFullApp(state);
-}
+  }
 
+export const subscribe = (observer) => {
+rerenderFullApp = observer;
+  }
 export default state;
