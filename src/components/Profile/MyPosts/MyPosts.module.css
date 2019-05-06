@@ -1,28 +1,32 @@
 .MyPosts {
-    display: grid;
-    grid-template-rows: 23% 10%;
-    grid-template-columns: 80px auto;
-    grid-template-areas:
-    "ta ta"
-    "ab rm"
-    "pt pt";
+  display: grid;
+  grid-template-rows: 13% 10%;
+  grid-template-columns: 80px auto;
+  grid-template-areas:
+  "ta ta"
+  "ab ab"
+  "pt pt";
 }
 .textarea {
-    grid-area: ta;
-    width:400px;
-    height: 30px;
+  grid-area: ta;
+  width:400px;
+  height: 30px;
 }
 .AddBut{
-    grid-area: ab;
-    width: 80px;
+  grid-area: ab;
+  width: 80px;
+  height: 20px;
 }
 .RemoveBut{
-    grid-area: rm;
-    width: 80px;
+  grid-area: rm;
+  width: 80px;
 }
 .posts{
-    grid-area: pt;
-    color:white;
+  overflow: scroll;
+  height: 300px;
+  width: 650px;
+  grid-area: pt;
+  color:white;
 }
 
 
@@ -32,31 +36,33 @@
 
 
 @media only screen and (max-width: 500px){
-.MyPosts {
+  .MyPosts {
     display: grid;
+    grid-template-rows: 23% 10%;
     grid-template-columns: 80px auto;
     grid-template-areas:
     "ta ta"
-    "ab rm"
+    "ab ab"
     "pt pt";
-}
-.textarea {
+  }
+  .textarea {
     grid-area: ta;
     width: 98%;
     height: 30px;
   }
-.AddBut{
+  .AddBut{
     grid-area: ab;
     width: 80px;
     margin-left: 310px;
-}
-.RemoveBut{
+  }
+  .RemoveBut{
     margin-left: 220px;
     grid-area: rm;
     width: 80px;
-}
-.posts{
+  }
+  .posts{
     grid-area: pt;
     color:white;
-}
+    height: 140px;
+  }
 }

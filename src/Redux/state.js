@@ -24,7 +24,7 @@ let store = {
       ]
     }
   },
-  getState(){
+  getState(){ //функция отдающая приватный метод стейт
     return this._state;
   },
   rerenderFullApp(){
@@ -34,7 +34,6 @@ let store = {
     console.log('hello');
   },
   addPost(){
-    debugger;
     let newPost ={
       id: 5,
       message: this._state.ProfilePage.NewPostText,
