@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {BrowserRouter, Route, Link} from 'react-router-dom';
 import style from './MyPosts.module.css';
 import Post from './Post/Post';
-import {addPost, updateNewPostText, NewPostElement, PostsElements} from '../../../Redux/state';
+import {addPost, updateNewPostText,  NewPostElement, PostsElements} from '../../../Redux/state';
 
 
 
@@ -19,14 +19,14 @@ const MyPosts = (props) => {
 
 
   let addPosts = () => {
-    props.addPost();
-    props.updateNewPostText('');
+    props.dispatch({type: 'ADD-POST'});
   }
 
 
     let onPostChange = () => {
       let text = newPostElement.current.value;
-      props.updateNewPostText(text);
+      let action = {type: 'UPDATE-NEW-POST-TEXT', newText: text};
+      props.dispatch(action);
     }
 
   return (

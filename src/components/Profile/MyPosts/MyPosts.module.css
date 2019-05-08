@@ -17,10 +17,6 @@
   width: 80px;
   height: 20px;
 }
-.RemoveBut{
-  grid-area: rm;
-  width: 80px;
-}
 .posts{
   overflow: scroll;
   height: 300px;
@@ -47,7 +43,7 @@
   }
   .textarea {
     grid-area: ta;
-    width: 98%;
+    width: 383px;
     height: 30px;
   }
   .AddBut{
@@ -55,14 +51,11 @@
     width: 80px;
     margin-left: 310px;
   }
-  .RemoveBut{
-    margin-left: 220px;
-    grid-area: rm;
-    width: 80px;
-  }
+
   .posts{
     grid-area: pt;
     color:white;
+    width: 383px;
     height: 140px;
   }
 }

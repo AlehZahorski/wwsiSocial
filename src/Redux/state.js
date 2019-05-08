@@ -33,24 +33,32 @@ let store = {
   _callSubscriber(){
     console.log('hello');
   },
-  addPost(){
-    let newPost ={
-      id: 5,
-      message: this._state.ProfilePage.NewPostText,
-      LikesCount: 0
-    };
-    this._state.ProfilePage.posts.push(newPost);
-    this._callSubscriber(this._state);
-  },
-  updateNewPostText(newText){
-    this._state.ProfilePage.NewPostText = newText;
-    this._callSubscriber(this._state);
-  },
   subscribe(observer){
     this._callSubscriber = observer;
+  },
+
+
+  dispatch(action){
+    if (action.type === 'ADD-POST') {
+      let newPost ={
+        id: 5,
+        message: this._state.ProfilePage.NewPostText,
+        LikesCount: 0
+      };
+      this._state.ProfilePage.posts.push(newPost);
+      this._state.ProfilePage.NewPostText = '';
+      this._callSubscriber(this._state);
+    }
+    else if (action.type === 'UPDATE-NEW-POST-TEXT') {
+      this._state.ProfilePage.NewPostText = action.newText;
+      this._callSubscriber(this._state);
+    }
+
+
   }
 }
 
 
 window.store = store;
 export default store;
+//store - oop
