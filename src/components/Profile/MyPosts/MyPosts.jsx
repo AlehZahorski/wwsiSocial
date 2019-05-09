@@ -2,8 +2,19 @@ import React, {Component} from 'react';
 import {BrowserRouter, Route, Link} from 'react-router-dom';
 import style from './MyPosts.module.css';
 import Post from './Post/Post';
-import {addPost, updateNewPostText,  NewPostElement, PostsElements} from '../../../Redux/state';
+import {addPost, updateNewPostText,addPostActionCreator,updateNewPostTextActionCreator, NewPostElement, PostsElements} from '../../../Redux/state';
 
+// var addPostActionCreator = () => {
+//   return {
+//     type: 'ADD-POST'
+//   }
+// }
+//
+// var updateNewPostTextActionCreator = (text) => {
+//   return {
+//      type: 'UPDATE-NEW-POST-TEXT', newText: text
+//   }
+// }
 
 
 const MyPosts = (props) => {
@@ -19,13 +30,14 @@ const MyPosts = (props) => {
 
 
   let addPosts = () => {
-    props.dispatch({type: 'ADD-POST'});
+    props.dispatch(addPostActionCreator());
   }
 
 
     let onPostChange = () => {
       let text = newPostElement.current.value;
-      let action = {type: 'UPDATE-NEW-POST-TEXT', newText: text};
+      //let action = {type: 'UPDATE-NEW-POST-TEXT', newText: text};
+      let action = updateNewPostTextActionCreator(text);
       props.dispatch(action);
     }
 
